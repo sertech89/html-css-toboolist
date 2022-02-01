@@ -41,10 +41,9 @@ header{
     width: 1000px;
     height: 750px;
     background-color: white;
-    background-position: center;
-    margin-left: 340px;
-    margin-top: 70px;
-    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
     }
 
     .pulsante-primario{
@@ -52,17 +51,71 @@ header{
         background-color: rgba(71,173,241,255);
         color: white;
         border-radius: 10%;
+        width: 85px;
+        height: 35px;
+        border: 1px solid black;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        vertical-align: middle;
     }
 
     .pulsante-secondario{
         display: inline-block;
-        background-color: rgba(71,173,241,255);
-        color: white;
-        background-size: 20px;
-        size: 20px;
+        background-color: white;
+        color: rgba(198,204,209,255);
+        border-radius: 8%;
+        width: 85px;
+        height: 35px;
+        border: 1px solid black;
+        margin-left: 15px;
+        vertical-align: middle;
+    }
+
+    .pulsante-terziario{
+         display: inline-block;
+        background-color: white;
+        color: rgba(198,204,209,255);
+        border-radius: 8%;
+        width: 85px;
+        height: 35px;
+        border: 1px solid black;
+        margin-left: 15px;
+        vertical-align: middle;
     }
 
     hr{
         color: red;  /* il comando NON funziona*/
     }
+
+    h2{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    p{
+       display: inline-block;
+       margin-left: 50px; 
+       margin-top: 15px;
+       border-radius: 10%;
+    }
+
+.check::before{
+    content: "\2713";
+    color: lawngreen;
+    border: 1px solid lawngreen;
+    border-radius: 50%;
+}
+
+.segno-x::before{
+    content: "\10102";
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+
+    
+
+    
 
