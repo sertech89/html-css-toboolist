@@ -46,6 +46,70 @@ header{
     margin-top: 50px;
     }
 
+    /* COLORE BOTTONI*/
+    
+    .violet{
+        display: inline-block;
+        color: white;
+        border-radius: 8%;
+        width: 85px;
+        height: 35px;
+        border: 1px solid black;
+        margin-left: 15px;
+        vertical-align: middle;
+        background-color: #9c72e4;
+    }
+
+    .green{
+        display: inline-block;
+        color: white;
+        border-radius: 8%;
+        width: 85px;
+        height: 35px;
+        border: 1px solid black;
+        margin-left: 15px;
+        vertical-align: middle;
+        background-color:#64c0a9;
+    }
+
+    .orange{
+        display: inline-block;
+        color: white;
+        border-radius: 8%;
+        width: 85px;
+        height: 35px;
+        border: 1px solid black;
+        margin-left: 15px;
+        vertical-align: middle;
+        background-color:#f29e33;
+    }
+
+    .pink{
+        display: inline-block;
+        color: white;
+        border-radius: 8%;
+        width: 85px;
+        height: 35px;
+        border: 1px solid black;
+        margin-left: 15px;
+        vertical-align: middle;
+        background-color:#d863a1;
+    }
+
+    .verde{
+        display: inline-block;
+        color: white;
+        border-radius: 8%;
+        width: 85px;
+        height: 35px;
+        border: 1px solid black;
+        margin-left: 15px;
+        vertical-align: middle;
+        background-color:#b0c926;
+    }
+
+    
+
     .pulsante-primario{
         display: inline-block;
         background-color: rgba(71,173,241,255);
