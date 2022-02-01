@@ -42,6 +42,7 @@ header{
     background-size: cover;
 }
 
+
 .riquadro-principale{
     width: 1000px;
     height: 750px;
@@ -49,6 +50,10 @@ header{
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    }
+
+    .arrow::before{
+        content: '\25BE';
     }
 
     /* INIZIO COLORE BOTTONI*/
