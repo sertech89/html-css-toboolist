@@ -4,7 +4,65 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 12px;
+}
+
+.logo{
+    width: 70px;
+    margin-left: 10px;
+    vertical-align: middle;
+    
+}
+
 .barra-principale{
     display: inline-block;
 }
+
+h1{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 5em;
+    vertical-align: middle;         
+    line-height: 50px;
+    height: 50px;
+}
+
+body{
+    background-color: rgba(246,248,249,255);
+}
+
+header{
+    background-color: white;
+    background-size: cover;
+}
+
+.riquadro-principale{
+    width: 1000px;
+    height: 750px;
+    background-color: white;
+    background-position: center;
+    margin-left: 340px;
+    margin-top: 70px;
+    display: inline-block;
+    }
+
+    .pulsante-primario{
+        display: inline-block;
+        background-color: rgba(71,173,241,255);
+        color: white;
+        border-radius: 10%;
+    }
+
+    .pulsante-secondario{
+        display: inline-block;
+        background-color: rgba(71,173,241,255);
+        color: white;
+        background-size: 20px;
+        size: 20px;
+    }
+
+    hr{
+        color: red;  /* il comando NON funziona*/
+    }
 
