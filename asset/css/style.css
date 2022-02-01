@@ -54,6 +54,7 @@ header{
 
     .arrow::before{
         content: '\25BE';
+        margin: 20px;
     }
 
     /* INIZIO COLORE BOTTONI*/
@@ -163,12 +164,11 @@ header{
     /* FINE COLORE PULSANTI */
 
     
-
     .pulsante-primario{
         display: inline-block;
         background-color: rgba(71,173,241,255);
         color: white;
-        border-radius: 10%;
+        border-radius: 5px;
         width: 95px;
         height: 35px;
         border: 1px solid black;
@@ -177,19 +177,21 @@ header{
         margin-left: 20px;
         vertical-align: middle;
         text-align: center;
+        padding: 5px;
     }
 
     .pulsante-secondario{
         display: inline-block;
         background-color: white;
         color: rgba(198,204,209,255);
-        border-radius: 8%;
-        width: 95px;
+        border-radius: 5px;
+        width: 105px;
         height: 35px;
         border: 1px solid black;
         margin-left: 15px;
         vertical-align: middle;
         text-align: center;
+        padding: 5px;
     }
 
 
@@ -207,6 +209,7 @@ header{
        margin-left: 50px; 
        margin-top: 15px;
        border-radius: 10%;
+
     }
 
 .check::before{
@@ -214,6 +217,10 @@ header{
     color: #71c7b3;
     border: 1px solid #71c7b3;
     border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
 }
 
 .segno-x::before{
@@ -221,6 +228,10 @@ header{
     color: #ed7772;
     border: 1px solid #ed7772;
     border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
 }
 
 
