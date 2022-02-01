@@ -6,6 +6,7 @@
 
 html{
     font-size: 12px;
+   
 }
 
 .logo{
@@ -28,6 +29,10 @@ h1{
     height: 50px;
 }
 
+main{
+    font-size: 1.5em;
+}
+
 body{
     background-color: rgba(246,248,249,255);
 }
@@ -46,67 +51,111 @@ header{
     margin-top: 50px;
     }
 
-    /* COLORE BOTTONI*/
+    /* INIZIO COLORE BOTTONI*/
     
     .violet{
         display: inline-block;
         color: white;
-        border-radius: 8%;
+        border-radius: 50%;
         width: 85px;
-        height: 35px;
+        height: 25px;
         border: 1px solid black;
         margin-left: 15px;
         vertical-align: middle;
         background-color: #9c72e4;
+        text-align: center;
+        font-size: 14px;
+        vertical-align: middle;
+        line-height: 24px;
     }
 
     .green{
         display: inline-block;
         color: white;
-        border-radius: 8%;
+        border-radius: 50%;
         width: 85px;
-        height: 35px;
+        height: 25px;
         border: 1px solid black;
         margin-left: 15px;
         vertical-align: middle;
         background-color:#64c0a9;
+        text-align: center;
+        font-size: 14px;
+        vertical-align: middle;
+        line-height: 24px;
+
     }
 
     .orange{
         display: inline-block;
         color: white;
-        border-radius: 8%;
+        border-radius: 50%;
         width: 85px;
-        height: 35px;
+        height: 25px;
         border: 1px solid black;
         margin-left: 15px;
         vertical-align: middle;
         background-color:#f29e33;
+        text-align: center;
+        font-size: 14px;
+        vertical-align: middle;
+        line-height: 24px;
+
     }
 
     .pink{
         display: inline-block;
         color: white;
-        border-radius: 8%;
+        border-radius: 50%;
         width: 85px;
-        height: 35px;
+        height: 25px;
         border: 1px solid black;
         margin-left: 15px;
         vertical-align: middle;
         background-color:#d863a1;
+        text-align: center;
+        font-size: 14px;
+        vertical-align: middle;
+        line-height: 24px;
+
     }
 
     .verde{
         display: inline-block;
         color: white;
-        border-radius: 8%;
+        border-radius: 50%;
         width: 85px;
-        height: 35px;
+        height: 25px;
         border: 1px solid black;
         margin-left: 15px;
         vertical-align: middle;
         background-color:#b0c926;
+        text-align: center;
+        font-size: 14px;
+        vertical-align: middle;
+        line-height: 24px;
+
     }
+
+    .blu{
+        display: inline-block;
+        color: white;
+        border-radius: 50%;
+        width: 85px;
+        height: 25px;
+        border: 1px solid black;
+        margin-left: 15px;
+        vertical-align: middle;
+        background-color:rgba(71,173,241,255);
+        text-align: center;
+        font-size: 14px;
+        vertical-align: middle;
+        line-height: 24px;
+
+    }
+
+
+    /* FINE COLORE PULSANTI */
 
     
 
@@ -115,13 +164,14 @@ header{
         background-color: rgba(71,173,241,255);
         color: white;
         border-radius: 10%;
-        width: 85px;
+        width: 95px;
         height: 35px;
         border: 1px solid black;
         margin-top: 15px;
         margin-bottom: 15px;
         margin-left: 20px;
         vertical-align: middle;
+        text-align: center;
     }
 
     .pulsante-secondario{
@@ -129,24 +179,14 @@ header{
         background-color: white;
         color: rgba(198,204,209,255);
         border-radius: 8%;
-        width: 85px;
+        width: 95px;
         height: 35px;
         border: 1px solid black;
         margin-left: 15px;
         vertical-align: middle;
+        text-align: center;
     }
 
-    .pulsante-terziario{
-         display: inline-block;
-        background-color: white;
-        color: rgba(198,204,209,255);
-        border-radius: 8%;
-        width: 85px;
-        height: 35px;
-        border: 1px solid black;
-        margin-left: 15px;
-        vertical-align: middle;
-    }
 
     hr{
         color: red;  /* il comando NON funziona*/
@@ -166,15 +206,15 @@ header{
 
 .check::before{
     content: "\2713";
-    color: lawngreen;
-    border: 1px solid lawngreen;
+    color: #71c7b3;
+    border: 1px solid #71c7b3;
     border-radius: 50%;
 }
 
 .segno-x::before{
     content: "\10102";
-    color: red;
-    border: 1px solid red;
+    color: #ed7772;
+    border: 1px solid #ed7772;
     border-radius: 50%;
 }
 
